@@ -1,0 +1,111 @@
+.joey {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  text-align:center;
+  flex-direction: row;
+  /* margin-top: 10px; */
+  /* color: white; */
+  /* background-color: rgb(250,246,243); */
+  padding-left: 20px;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+.seeall {
+  font-size: 22px;
+  color: seagreen;
+}
+.addHome {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(152, 80, 194);
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    margin-left: 600px;
+  }
+
+  .h1joey {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 24px;
+    font-weight: 42px;
+    color: rgb(55, 107, 55);
+  }
+
+  .monica{
+    padding: 5rem;
+    padding-top: 1.5rem;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    margin-top: 10px;
+    margin-left: 450px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+  .houses {
+    display: flex;
+  }
+    .house {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+      .coverimg {
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      button {
+        padding: 3px 6px;
+        background-color: white;
+        cursor: pointer;
+      }
+      .delete {
+        border: 1px solid rgb(245, 191, 191);
+        color: rgb(242, 100, 100);
+      }
+      .update {
+        border: 1px solid rgb(204, 204, 243);
+        color: rgb(139, 139, 234);
+      }
+
+  .formmm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+    input {
+      width: 250px;
+      padding: 10px;
+      border: 1px solid gray;
+    }
+
+    textarea {
+      padding: 10px;
+    }
+
+    /* button {
+      border: none;
+      padding: 10px;
+      background-color: white;
+      background-color: teal;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    } */
+  

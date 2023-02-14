@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Josefin+Sans&family=Outfit:wght@100;200;300;400;500;800;900&family=Poppins:wght@300&display=swap');
+.mainlogin{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    text-align:center;
+    flex-direction: row;
+    /* color: white; */
+    background-color: white;
+    padding-left: 20px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.logn{
+    padding: 5rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+    margin-top: 10px;
+    margin-left: 450px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/* img{
+    padding-right: 20px;
+    width: 240px;
+    height: 240px;
+    margin-left: 150px;
+    
+} */
+.inputname{
+    height: 30px;
+    text-align: center;
+}
+.buttoname{
+    height: 50px;
+    width: 105px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(55, 107, 55);
+    color: white;
+}
